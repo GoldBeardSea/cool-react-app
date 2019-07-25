@@ -2,17 +2,17 @@ AWSTemplateFormatVersion: 2010-09-09
 Parameters:
   ProjectSource:
     Type: String
-    Default: https://github.com/mnfmnfm/cool-react
+    Default: https://github.com/GoldBeardSea/cool-react-app
     Description: "Source control URL (e.g. Github)"
   GithubOwner:
     Type: String
-    Default: mnfmnfm
+    Default: GoldBeardSea
   GithubRepo:
     Type: String
-    Default: cool-react
+    Default: cool-react-app
   GithubOAuthToken:
     Type: String
-    Default: MyGitHubOAuthToken
+    Default: 623af9774176f29dab58b8b479a0dca37c7962e2
     Description: "Github personal access token"
 Resources:
   CodePipeline:
